@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  margin: 0 auto;
+}
+
+.intro {
+    width: 1200px;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.NFC_main {
+    display: flex;
+}
+.container {
+    height: 200%;
+    background-color: white;
+}
+
+body {
+    background: url(newspaper.jpg);
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.intro__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.PULS_Title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+}
+.newspaper_img {
+    display: flex;
+    justify-content: center;
+}
+.NFC {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Subscribe {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+}
